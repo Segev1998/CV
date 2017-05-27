@@ -1,0 +1,132 @@
+body{
+   
+    font-family: 'Open Sans',sans-serif;
+   
+
+}
+
+#cv {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+     box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#profile{
+    background: #1e1e1e;
+    color: yellow;
+    padding: 25px;
+    
+}
+#intro{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a5a5a5;
+    
+}
+#intro img
+{  
+ border-radius:50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    
+}
+
+#intro header {
+    margin-right:25px 
+     text-transform: uppercase;
+}
+
+#intro header h1{
+
+    font-weight: 300;
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+#intro header h2{
+  
+    font-weight: 600;
+    color: goldenrod;
+    font-size: 70px;
+    margin: 0;
+    
+}
+#intro header h3{
+    
+    margin: 9;
+    color: #fff;
+    font-weight: 400;
+}
+
+#head{
+    
+display: grid;
+    margin-right: 20px;
+    color: darkblue;
+    margin-left: 20px;
+
+}
+
+#about{
+    
+   
+    border-left: 2px solid #a5a5a5;
+    padding: 15px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+#contact-info
+{
+    display:flex;
+}
+
+#contact-info ul
+{
+    list-style: none;
+}
+
+#social-network {
+    
+display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+#exptitles{
+  display: flex;
+    
+}
+
+#para
+{
+    margin-right: 20px;
+    display: grid;
+}
+#hobiicon img{
+       
+
+    margin-left: 35px;
+    
+    
+    
+}
+
+#hobitext {
+    display: flex;
+    
+    
+}
+#hobitext p{
+    
+    margin-left: 50px;
+        float: right
+
+    
+}
